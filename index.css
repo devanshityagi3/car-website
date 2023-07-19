@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #081823;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logo img{
+    margin-left: 350px;
+    height: 20px;
+    width: 30px;
+    border-radius: 10px;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav-right {
+    float: right;
+}
+
+.active-item{
+    border-bottom: 2px solid #ee5e10;
+}
+
+.image{
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+.bold{
+    font-family: 'Jost', sans-serif;
+    font-size: 55px;
+}
+
+.text h1 {
+/* gradient left to right karna h */
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 72px;
+}
+
+.section{
+    color: white;
+    text-align: center;
+}
+
+.grad2 {
+    /* gradient left to right karna h */
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.parent{
+    display: flex;
+    padding: 20px;
+}
+
+.video-container {
+    position: relative;
+    margin-left: 150px;
+}
+
+video {
+    width: 580px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+#playIcon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.section2 {
+    color: white;
+}
+
+.section2 p {
+    margin: 0;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.grad3 {
+    /* gradient left to right karna h */
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grad4 {
+    /* gradient left to right karna h */
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 72px
+}
+
+.section3 {
+    color: white;
+    text-align: center;
+}
+
+.section4 {
+    color: white;
+    text-align: center;
+}
+
+.section5 {
+    color: white;
+    text-align: center;
+}
+
+.grad5 {
+    /* gradient left to right karna h */
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.section6 {
+    color: white;
+    text-align: center;
+}
+
+.grad6 {
+    /* gradient left to right karna h */
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.end-section p{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.end-section a{
+    padding: 6px;
+    background-color: #0b2332;
+    border-radius: 7px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.end-section .active{
+    background-color: white;
+    color: black;
+}
+
+.para{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.end-section button{
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: auto;
+}
+
+.footer{
+    display: flex;
+}
+
+.src-car{
+    margin: auto;
+}
