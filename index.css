@@ -18,7 +18,6 @@ body {
     justify-content: space-between;
     padding: 10px;
     height: 30px;
-
 }
 
 .navbar-left,
@@ -61,11 +60,10 @@ body {
 
 .main-image {
     background: url("/images/bg.jpg");
+    background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 500px;
-    position: relative;
+    min-height: 600px;
+    width: 100vw;
 }
 
 .main-image .image-text {
@@ -73,7 +71,7 @@ body {
     left: 10%;
     top: 40%;
     color: #f2f2f2;
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: 700;
 }
 
@@ -355,6 +353,9 @@ footer {
     }
 
     body {
-        background-image: url("/images/bg.jpg");
+        min-height: 400px;
+    }
+    .main-image .image-text {
+        font-size: 4vw;
     }
 }
